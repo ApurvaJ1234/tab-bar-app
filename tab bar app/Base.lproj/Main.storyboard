@@ -11,7 +11,6 @@
         <!--First View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="FirstView" customModule="tab_bar_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
@@ -26,13 +25,14 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="fjc-eF-MHm"/>
                     <connections>
                         <outlet property="Flbl" destination="woP-D7-u1h" id="h6O-8X-eZE"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138.78504672897196" y="-580.56155507559401"/>
         </scene>
@@ -42,6 +42,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="pvO-U7-1YD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OPG-jV-7q9">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -58,7 +59,6 @@
         <!--Third View-->
         <scene sceneID="X02-5E-Azd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FxH-bo-50z" sceneMemberID="firstResponder"/>
                 <viewController id="PtZ-Qo-bif" customClass="ThirdView" customModule="tab_bar_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gFO-rq-0RC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
@@ -73,20 +73,20 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8OG-Fl-dZx"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="YYk-Ge-uYq"/>
                     <connections>
                         <outlet property="Tlbl" destination="awb-7X-h3a" id="Nce-Q7-Hfp"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FxH-bo-50z" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="292" y="354"/>
         </scene>
         <!--Second View-->
         <scene sceneID="eZH-5A-Fmc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CmP-lr-8Us" sceneMemberID="firstResponder"/>
                 <viewController id="U6i-EY-M1D" customClass="SecondView" customModule="tab_bar_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LZE-a2-6e0">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
@@ -101,20 +101,27 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2IH-XR-n50"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="recents" id="bAo-V6-AsA"/>
                     <connections>
                         <outlet property="Slbl" destination="B0C-Fc-VrL" id="oRF-vV-WMN"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CmP-lr-8Us" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1149.5327102803737" y="2.5917926565874732"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
